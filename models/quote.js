@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 // optional shortcut to the mongoose.Schema class
 const Schema = mongoose.Schema;
 
-const opinionSchema = new Schema({
+const thoughtsSchema = new Schema({
   content: {
     type: String,
     required: true
   },
-  rating: {
+  value: {
     type: Number,
     min: 1,
     max: 5,
@@ -33,19 +33,8 @@ const quoteSchema = new Schema({
     },
     min: -1000
   },
-quote: { type: String, required: true },
-
-  mpaaRating: {
-    type: String,
-    enum: ['G', 'PG', 'PG-13', 'R']
-  },
-  cast: [{
-    type: Schema.Types.ObjectId,
-    ref: 'Performer'
-  }],
-  nowShowing: {type: Boolean, default: true },
-  reviews: [opinionSchema]
-}, {
+philosopher: { type: String, required: true },
+  }, {
   timestamps: true
 });
 

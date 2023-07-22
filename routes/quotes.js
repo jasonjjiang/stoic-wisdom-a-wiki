@@ -4,13 +4,13 @@ const router = express.Router();
 const quotesCtrl = require('../controllers/quotes');
 const ensureLoggedIn = require('../config/ensureLoggedIn');
 	
-// GET /movies
+// GET /quotes
 router.get('/', quotesCtrl.index);
-// GET /movies/new
+// GET /quotes/new
 router.get('/new', ensureLoggedIn, quotesCtrl.new);
-// GET /movies/:id (show functionality) MUST be below new route
+// GET /quotes/:id (show functionality) MUST be below new route
 router.get('/:id', quotesCtrl.show);
-// POST /movies
+// POST /quotes
 router.post('/', ensureLoggedIn, quotesCtrl.create);
 	
 module.exports = router;

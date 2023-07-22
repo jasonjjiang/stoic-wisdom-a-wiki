@@ -1,24 +1,24 @@
-const Performer = require('../models/performer');
-const Movie = require('../models/movie');
+const Philosopher = require('../models/philosopher');
+const Quote = require('../models/quote');
 
 module.exports = {
-  new: newPerformer,
+  new: newPhilosopher,
   create,
-  addToCast
+  addToQuote
 };
 
-async function addToCast(req, res) {
-  const movie = await Movie.findById(req.params.id);
+async function addToQuote(req, res) {
+  const quote = await Quote.findById(req.params.id);
   // The cast array holds the performer's ObjectId (referencing)
-  movie.cast.push(req.body.performerId);
-  await movie.save();
-  res.redirect(`/movies/${movie._id}`);
+  quote.cast.push(req.body.performerId);
+  await quote.save();
+  res.redirect(`/quotes/${quote._id}`);
 }
 
-async function newPerformer(req, res) {
+async function newPhilosopher(req, res) {
   //Sort performers by their name
-  const performers = await Performer.find({}).sort('name');
-  res.render('performers/new', { title: 'Add Performer', performers });
+  const philosophers = await Philosopher.find({}).sort('name');
+  res.render('philosophers/new', { title: 'Add Philosopher', philosophers });
 }
 
 async function create(req, res) {
@@ -30,9 +30,9 @@ async function create(req, res) {
   // appending a "time" fragment like this... 
   req.body.born += 'T00:00';
   try {
-    await Performer.create(req.body);
+    await Philosopher.create(req.body);
   } catch (err) {
     console.log(err);
   }
-  res.redirect('/performers/new');
+  res.redirect('/philosophers/new');
 }

@@ -15,7 +15,7 @@ require('./config/passport');
 
 const indexRouter = require('./routes/index');
 const quotesRouter = require('./routes/quotes');
-const interpretationsRouter = require('./routes/interpretations');
+const thoughtsRouter = require('./routes/thoughts');
 const philosophersRouter = require('./routes/philosophers');
 
 var app = express();
@@ -47,11 +47,11 @@ app.use(function (req, res, next) {
 });
 
 app.use('/', indexRouter);
-app.use('/movies', moviesRouter);
+app.use('/quotes', quotesRouter);
 // Mount these routers to root because not all 
 // paths for a related/nested resource begin the same
-app.use('/', reviewsRouter);
-app.use('/', performersRouter);
+app.use('/', thoughtsRouter);
+app.use('/', philosophersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
