@@ -1,8 +1,8 @@
 require('dotenv').config();
 require('./config/database');
 
-const Movie = require('./models/movie');
-const Performer = require('./models/performer');
+const Quote = require('./models/quote');
+const Philosopher = require('./models/philosopher');
 
 // For better organization, the seed data is being stored in a separate data.js module
 const data = require('./data');
@@ -10,8 +10,8 @@ const data = require('./data');
 // await needs an async function - use an async IIFE!
 (async function() {
   // Save the promises (or call right in the array if feeling frisky)
-  const p1 = Movie.deleteMany({});
-  const p2 = Performer.deleteMany({});
+  const p1 = Quote.deleteMany({});
+  const p2 = Philosopher.deleteMany({});
   
   // Promise.all will return a single promise that resolves
   // only after all of the array's promises resolve
@@ -21,17 +21,17 @@ const data = require('./data');
 
   // This time, provide the array of promises in-line
   results = await Promise.all([
-    Movie.create(data.movies),
-    Performer.create(data.performers)
+    Quote.create(data.quotes),
+    Philosophers.create(data.philosophers)
   ]);
-  console.log('Created movies:', results[0]);
-  console.log('Created performers:', results[1]);
+  console.log('Created quotes:', results[0]);
+  console.log('Created philosophers:', results[1]);
 
   // Associate Mark Hamill with Star Wars - A New Hope
   results = await Promise.all([
     // Using regular expressions allows a partial match
-    Movie.findOne({ title: /Star / }),
-    Performer.findOne({ name: /Mark / })
+    Quote.findOne({ title: /Star / }),
+    Philosopher.findOne({ name: /Mark / })
   ]);
   // One day we'll destructure results like this:
   // const [starWars, mark] = results;

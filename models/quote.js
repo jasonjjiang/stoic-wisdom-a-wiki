@@ -25,14 +25,7 @@ const thoughtsSchema = new Schema({
 });
 
 const quoteSchema = new Schema({
-  title: { type: String, required: true },
-  year: {
-    type: Number,
-    default: function() {
-      return new Date().getFullYear();
-    },
-    min: -1000
-  },
+  quote: { type: String, required: true },
 philosopher: { type: String, required: true },
   }, {
   timestamps: true
