@@ -2,9 +2,12 @@ const QUOTE = require('../models/quote');
 
 module.exports = {
   create,
-  // Add this export
-  delete: deleteThoughts
+  show,
+  delete: deleteThoughts,
 };
+
+async function show(req, res) {
+  res.render('thoughts/show', { quote: 'Quote Meaning', philosopher, }); }
 
 async function deleteThoughts(req, res) {
   // Note the cool "dot" syntax to query on the property of a subdoc

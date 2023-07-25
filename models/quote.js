@@ -3,15 +3,14 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const thoughtsSchema = new Schema({
-  content: {
+  thoughts: {
     type: String,
     required: true
   },
-  value: {
+  wisdom: {
     type: Number,
     min: 1,
-    max: 5,
-    default: 5
+    max: 10
   },
   user: {
     type: Schema.Types.ObjectId,

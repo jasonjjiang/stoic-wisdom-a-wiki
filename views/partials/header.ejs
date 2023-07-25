@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='stylesheet' href='/stylesheets/style.css' />
-  <title><%= title %></title>
+  <title>STOIC WISDOM</title>
 </head>
 <body>
   <nav>
-    <img src="/images/camera.svg">
     <a href="/quotes" <%- title === 'All Quotes' ? 'class="active"' : '' %>>ALL QUOTES</a>
     <% if (user) { %>
-      <a href="/philosophers/new"	<%- title === 'Add Philosopher' ? 'class="active"' : '' %>>
-      ADD PERFORMER</a>
       <a href="/quotes/new" <%- title === 'Add Quote' ? 'class="active"' : '' %>>ADD QUOTE</a>
       <a href="/logout">LOG OUT</a>
     <% } else { %>

@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: Technical;
   color: #424748;
 }
 
@@ -120,16 +120,14 @@ table td {
   font-weight: bold;
 }
 
-#add-review-form,
-#add-performer-form {
+#add-thoughts-form {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 1rem;
   margin-bottom: 2rem;
 }
 
-#add-review-form input[type="submit"],
-#add-performer-form input[type="submit"]  {
+#add-thoughts-form input[type="submit"]  {
   width: 10rem;
   grid-column: 2 / 3;
 }
