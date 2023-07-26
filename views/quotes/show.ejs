@@ -16,21 +16,13 @@
   <input type="submit" value="ADD YOUR THINKING">
 </form>
 
-
-<form id="add-thoughts-form" method="POST"
-  action="/quotes/<%=quote._id %>/thoughts">
-  <textarea name="thoughts"></textarea>
-  <input type="submit" value="ADD YOUR THINKING">
-</form>
-
 <% if (quote.thoughts.length) { %>
   <table>
     <thead>
       <tr>
-        <th>STOIC PHILOSOPHER</th>
+        <th>STOICWISDOM MEMBER</th>
         <th>DATE</th>
         <th>THOUGHTS</th>
-        <th>WISDOM RATING</th>
         <th></th>
       </tr>
     </thead>

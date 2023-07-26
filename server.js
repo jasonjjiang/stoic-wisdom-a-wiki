@@ -45,10 +45,10 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use('/', indexRouter);
-app.use('/quotes', quotesRouter);
 // Mount these routers to root because not all 
 // paths for a related/nested resource begin the same
+app.use('/', indexRouter);
+app.use('/quotes', quotesRouter);
 app.use('/', thoughtsRouter);
 
 // catch 404 and forward to error handler
