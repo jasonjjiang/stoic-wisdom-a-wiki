@@ -9,13 +9,13 @@
 </head>
 <body>
   <nav>
-    <a href="/quotes" <%- title === 'All Quotes' ? 'class="active"' : '' %>>ALL QUOTES</a>
+    <a href="/quotes" <%- title === 'ALL QUOTES' ? 'class="active"' : '' %>>ALL QUOTES</a>
     <% if (user) { %>
-      <a href="/quotes/new" <%- title === 'Add Quote' ? 'class="active"' : '' %>>ADD QUOTE</a>
+      <a href="/quotes/new" <%- title === 'ADD WISDOM' ? 'class="active"' : '' %>>ADD WISDOM</a>
       <a href="/logout">LOG OUT</a>
     <% } else { %>
-      <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
+      <a href="/auth/google" class="login">ENTER STOICWISDOM&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
     <% } %>
   </nav>
   <main>
-    <h1><%= title %></h1>
+    <h1><%= %></h1>

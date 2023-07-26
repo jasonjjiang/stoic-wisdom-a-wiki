@@ -8,6 +8,4 @@ router.post('/quotes/:id/thoughts', ensureLoggedIn, thoughtsCtrl.create);
 // DELETE /thoughts (delete thought for a quote)
 router.delete('/thoughts/:id', ensureLoggedIn, thoughtsCtrl.delete);
 
-router.get('/', ensureLoggedIn, thoughtsCtrl.show);
-
 module.exports = router;

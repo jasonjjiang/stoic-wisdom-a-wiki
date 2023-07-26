@@ -26,6 +26,8 @@ const thoughtsSchema = new Schema({
 const quoteSchema = new Schema({
   quote: { type: String, required: true },
 philosopher: { type: String, required: true },
+interpretation: { type: String, required: true},
+thoughts: [thoughtsSchema]
   }, {
   timestamps: true
 });

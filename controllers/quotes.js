@@ -13,8 +13,8 @@ async function index(req, res) {
 }
 
 async function show(req, res) {
-
-  res.render('quotes/show', { quote: 'Quote Detail', quote});
+  const quote = await Quote.findById(req.params.id)
+  res.render('quotes/show', { title: 'Quote Detail', quote});
 }
 
 function newQuote(req, res) {

@@ -1,50 +1,36 @@
-<%- include('../partials/header') %>
+<%- include('../partials/header', { title: title })%>
 
 <section id="show-page">
-  <div>Title: </div>
-  <div><%= quote.title %></div>
-  <div>Release Year: </div>
-  <div><%= quote.releaseYear %></div>
-  <div>Rating: </div>
-  <div><%= quote.mpaaRating %></div>
-  <div>Now Showing: </div>
-  <div><%= quote.nowShowing ? 'Yes' : 'Nope' %></div>
-  <!-- start cast list -->
-  <div>Cast:</div>
-  <ul>
-    <%- quote.cast.map(p => 
-      `<li>${p.name} <small>${p.born.toLocaleDateString()}</small></li>`
-    ).join('') %>
-  </ul>
-  <!-- end cast list -->
+  <div>QUOTE:</div>
+  <div><%= quote.quote %></div>
+  <div>PHILOSOPHER: </div>
+  <div><%= quote.philosopher %></div>
+  <div>INTERPRETATION: </div>
+  <div><%= quote.interpretation %></div>
 </section>
-<!-- add to cast form below this comment -->
-<form id="add-per-to-cast" action="/quotes/<%= quote._id %>/philosophers" method="POST">
-  <select name="philosopherId">
-    <!-- Emit an option for each performer -->
-    <%- philosophers.map(p => 
-      `<option value="${p._id}">${p.name}</option>`
-    ).join('') %>
-  </select>
-  <button type="submit">Add to Quote</button>
+
+<br><br><h2>THOUGHTS</h2>
+<form id="add-thoughts-form" method="POST"
+  action="/quotes/<%=quote._id %>/thoughts">
+  <textarea name="thoughts"></textarea>
+  <input type="submit" value="ADD YOUR THINKING">
 </form>
 
-<br><br><h2>Thoughts</h2>
+
 <form id="add-thoughts-form" method="POST"
-  action="/movies/<%= movie._id %>/reviews">
-  <label>Thoughts</label>
-  <textarea name="content"></textarea>
-  <input type="submit" value="Add Thoughts">
+  action="/quotes/<%=quote._id %>/thoughts">
+  <textarea name="thoughts"></textarea>
+  <input type="submit" value="ADD YOUR THINKING">
 </form>
 
 <% if (quote.thoughts.length) { %>
   <table>
     <thead>
       <tr>
-        <th>User</th>
-        <th>Date</th>
-        <th>Review</th>
-        <th>Rating</th>
+        <th>STOIC PHILOSOPHER</th>
+        <th>DATE</th>
+        <th>THOUGHTS</th>
+        <th>WISDOM RATING</th>
         <th></th>
       </tr>
     </thead>
@@ -55,7 +41,7 @@
         <tr>
           <td class="thought-user"><img alt="avatar" src="<%= r.userAvatar %>" referrerpolicy="no-referrer" ><%= r.userName %></td>
           <td><%= r.createdAt.toLocaleDateString() %></td>
-          <td><%= r.content %></td>
+          <td><%= r.thoughts %></td>
           <td><%= r.rating %></td>
           <td>
             <% if (user?._id.equals(r.user)) { %>
@@ -73,7 +59,7 @@
     </tbody>
   </table>
 <% } else { %>
-  <h5>No Thoughts Yet</h5>
+  <h5>NO THOUGHTS HAVE BEEN ADDED.</h5>
 <% } %>
   
 <%- include('../partials/footer') %>

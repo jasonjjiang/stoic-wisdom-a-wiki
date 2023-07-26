@@ -1,22 +1,18 @@
-const QUOTE = require('../models/quote');
+const Quote = require('../models/quote');
 
 module.exports = {
   create,
-  show,
   delete: deleteThoughts,
 };
-
-async function show(req, res) {
-  res.render('thoughts/show', { quote: 'Quote Meaning', philosopher, }); }
 
 async function deleteThoughts(req, res) {
   // Note the cool "dot" syntax to query on the property of a subdoc
   const quote = await Quote.findOne({ 'quotes._id': req.params.id, 'quotes.user': req.user._id });
   // Rogue user!
   if (!quote) return res.redirect('/quotes');
-  // Remove the quote using the remove method available on Mongoose arrays
+  // Remove ue the quote using the remove method available on Mongoose arrays
   quote.quotes.remove(req.params.id);
-  // Save the updated movie doc
+  // Save thpdated movie doc
   await quote.save();
   // Redirect back to the quote's show view
   res.redirect(`/quotes/${quote._id}`);

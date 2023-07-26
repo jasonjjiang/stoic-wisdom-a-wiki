@@ -8,10 +8,10 @@ const ensureLoggedIn = require('../config/ensureLoggedIn');
 router.get('/', quotesCtrl.index);
 // GET /quotes/new
 router.get('/new', ensureLoggedIn, quotesCtrl.new);
-// GET /quotes/:id (show functionality) MUST be below new route
 // POST /quotes
 router.post('/', ensureLoggedIn, quotesCtrl.create);
-
-router.get('/', ensureLoggedIn, quotesCtrl.show);
+// GET /quotes/:id (show functionality) MUST be below new route
+router.get('/:id', ensureLoggedIn, quotesCtrl.show);
 	
 module.exports = router;
+    

@@ -2,8 +2,11 @@
 
 <table id="list">
   <thead>
+    <h2>THE VAULT OF STOIC WISDOM</h2>
     <tr>
-      <th>Quote</th>
+      <th>QUOTE</th>
+      <th>PHILOSOPHER</th>
+      <th>INTERPRETATION</th>
       <th></th>
     </tr>
   </thead>
@@ -11,7 +14,8 @@
     <% quotes.forEach(function(m) { %>
       <tr>
         <td><%= m.quote %></td>
-        <td><a href="/quotes/<%= m._id %>">Thoughts</a></td>
+        <td><%= m.philosopher %></td>
+        <td><a href="/quotes/<%= m._id %>">VIEW & DISCUSS</a></td>
       </tr>
       <% }); %>
     </tbody>
