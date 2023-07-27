@@ -4,7 +4,7 @@ module.exports = {
   index,
   show,
   new: newQuote,
-  create
+  create,
 };
 
 async function index(req, res) {

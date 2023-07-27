@@ -5,16 +5,12 @@ module.exports = {
   delete: deleteThoughts,
 };
 
+
 async function deleteThoughts(req, res) {
-  // Note the cool "dot" syntax to query on the property of a subdoc
-  const quote = await Quote.findOne({ 'quotes._id': req.params.id, 'quotes.user': req.user._id });
-  // Rogue user!
+  const quote = await Quote.findOne({ 'thoughts._id': req.params.id, 'thoughts.user': req.user._id });
   if (!quote) return res.redirect('/quotes');
-  // Remove ue the quote using the remove method available on Mongoose arrays
-  quote.quotes.remove(req.params.id);
-  // Save thpdated movie doc
+  quote.thoughts.remove(req.params.id);
   await quote.save();
-  // Redirect back to the quote's show view
   res.redirect(`/quotes/${quote._id}`);
 }
 
