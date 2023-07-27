@@ -8,11 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='/stylesheets/style.css' />
-  <title>StoicWisdom: A Wiki</title>
+  <title>StoicWisdom</title>
 </head>
 <body>
   <nav>
-    <a href="/" <%- title === 'STOIC WISDOM HOME' ? 'class="active"' : '' %>>STOICWISDOM HOME</a>
+    <a href="/" <%- title === 'HOME' ? 'class="active"' : '' %>>HOME</a>
     <a href="/quotes" <%- title === 'THE VAULT OF WISDOM' ? 'class="active"' : '' %>>THE VAULT OF WISDOM</a>
     <% if (user) { %>
       <a href="/quotes/new" <%- title === 'ADD WISDOM' ? 'class="active"' : '' %>>ADD WISDOM</a>
@@ -22,4 +22,3 @@
     <% } %>
   </nav>
   <main>
-    <h1><%= %></h1>

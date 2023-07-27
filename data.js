@@ -27,7 +27,7 @@ exports.quotes = [
   thoughts: [{thoughts: 'Without adversity, a man has not truly lived.', rating: 10, user: '64b80a4789dba03c674bf485'}], user: '64b80a4789dba03c674bf485'
 },
 
-{quote: '“How does it help… to make troubles heavier by bemoaning them?”', philosopher: 'Seneca' , interpretation: 'the quote serves as a reminder that while acknowledging and processing emotions related to difficulties are essential, dwelling excessively on them might not be productive. Instead, focusing on solutions, seeking support, and maintaining a positive outlook can help individuals better navigate through life\'s troubles with greater strength and resilience.',
+{quote: '“How does it help… to make troubles heavier by bemoaning them?”', philosopher: 'Seneca' , interpretation: 'This quote serves as a reminder that while acknowledging and processing emotions related to difficulties are essential, dwelling excessively on them might not be productive. Instead, focusing on solutions, seeking support, and maintaining a positive outlook can help individuals better navigate through life\'s troubles with greater strength and resilience.',
   thoughts: [{thoughts: 'Do not excessively complain.', rating: 10, user: '64b80a4789dba03c674bf485'}], user: '64b80a4789dba03c674bf485'
 },
 
