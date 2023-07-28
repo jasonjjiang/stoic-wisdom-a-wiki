@@ -22,19 +22,21 @@ I find myself constantly pondering the deeper meanings behind the quotes I read,
 
 Getting Started
 
-Deploy StoicWisdom here: https://stoicwisdom-f72934c2e06a.herokuapp.com/!
+Visit StoicWisdom here: https://stoicwisdom-f72934c2e06a.herokuapp.com/
 
 Explore Stoic Wisdom: Dive into a vast library of Stoic quotes from renowned philosophers like Seneca, Epictetus, and Marcus Aurelius. Each quote is carefully selected to provide practical advice on how to navigate life's challenges and find inner peace.
 
-Share Your Interpretation: Share your interpretations of a quote or share how a quote has helped you navigate your own life via commenting.
+Share Your Thoughts: Share your thoughts on a quote or share how a quote has helped you navigate your own life.
 
-Personal Quote Journal: Create an account to save and organize your favorite quotes. Build your personal collection of Stoic wisdom, revisit them whenever needed, and track your personal growth journey.
+Add Wisdom: Add your favorite Stoic quotes to the "The Vault of Wisdom" for the entire community to see.
 
-Share the Wisdom: Share your favorite quotes on social media to spread Stoic insights with your friends and followers. Inspire others to embrace the Stoic philosophy and its transformative power.
+Share Wisdom: Share your favorite quotes on social media to spread Stoic insights with your friends and followers. Inspire others to embrace the Stoic philosophy and its transformative power.
 
 Technologies used: HTML, CSS, JavaScript, MongoDB, Mongoose, Express, Heroku
 
-Next Steps & Ice Box Items:
+Next Steps & Ice Box Items: 
+
+Personal Quote Journal: Allow users to organize their favorite quotes and all of their posted "thoughts" to date. This will allow users to build their personal collection of Stoic wisdom, revisit them whenever needed, and track their personal growth journey.
 
 Join the StoicWisdom Community
 
