@@ -1,17 +1,28 @@
 # stoic-wisdom-a-wiki
 About
 
+![Alt text](Home.png)
+![Alt text](<Vault of Wisdom.png>)
+![Alt text](<Add Thoughts.png>)
+![Alt text](<Add Wisdom.png>)
+
 StoicWisdom is a web application designed to inspire and empower users with the timeless wisdom of Stoicism. Drawing from the teachings of ancient Stoic philosophers, our app offers a curated collection of insightful quotes that can guide you towards a more fulfilling and resilient life.
 
 Stoicism is an ancient philosophical school that emerged in Greece and later gained prominence in Rome. It centers around the idea of cultivating inner tranquility and contentment by focusing on what one can control and accepting what one cannot. At the heart of Stoicism is the pursuit of virtue and wisdom, urging individuals to develop qualities like courage, justice, and self-discipline to achieve a state of eudaimonia, or flourishing. By practicing negative visualization, where potential hardships are mentally rehearsed, Stoics aim to foster gratitude for what they have and reduce attachment to external circumstances. Stoicism's enduring appeal lies in its practicality and adaptability, offering valuable insights into resilience, emotional regulation, and a meaningful way of life.
 
 Personal Note
 
-I created this web app as a personal project during General Assembly's Software Engineering Immersive bootcamp.
+I created this web app as my first full-stack CRUD project during General Assembly's Software Engineering Immersive bootcamp.
 
-Stoicism has been immensely beneficial in helping me navigate the professional and personal challenges in my own life's journey. I am an individual that is constantly seeing wisdom to help navigate our modern world. I find myself constantly thinking about the meaning of the quotes I read, so I figured I'd combine my interest in Stoicism and technology to build "Stoic Wisdom: A Wiki". 
+Stoicism has been immensely beneficial in helping me navigate my career and personal life during my life's journey. 
+
+I am an individual that is constantly seeing wisdom to help navigate our modern world.
+
+I find myself constantly pondering the deeper meanings behind the quotes I read, so I figured I would combine my interests of Stoicism and technology to build "StoicWisdom: A Wiki". 
 
 Getting Started
+
+Deploy StoicWisdom here: https://stoicwisdom-f72934c2e06a.herokuapp.com/!
 
 Explore Stoic Wisdom: Dive into a vast library of Stoic quotes from renowned philosophers like Seneca, Epictetus, and Marcus Aurelius. Each quote is carefully selected to provide practical advice on how to navigate life's challenges and find inner peace.
 
