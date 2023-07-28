@@ -1,4 +1,4 @@
-# stoic-wisdom-a-wiki
+# stoicwisdom-a-wiki
 About
 
 ![Alt text](Home.png)
