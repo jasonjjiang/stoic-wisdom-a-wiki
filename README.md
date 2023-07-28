@@ -23,6 +23,7 @@ I find myself constantly pondering the deeper meanings behind the quotes I read,
 Getting Started
 
 Visit StoicWisdom here: https://stoicwisdom-f72934c2e06a.herokuapp.com/
+Visit my Trello board here: https://trello.com/b/LI1n56Po/stoic-wisdom-a-wiki
 
 Explore Stoic Wisdom: Dive into a vast library of Stoic quotes from renowned philosophers like Seneca, Epictetus, and Marcus Aurelius. Each quote is carefully selected to provide practical advice on how to navigate life's challenges and find inner peace.
 
