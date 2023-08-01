@@ -1,10 +1,11 @@
 # stoicwisdom-a-wiki
-**About**
 
 ![Alt text](Home.png)
 ![Alt text](<Vault of Wisdom.png>)
 ![Alt text](<Add Thoughts.png>)
 ![Alt text](<Add Wisdom.png>)
+
+**About**
 
 StoicWisdom is a web application designed to inspire and empower users with the timeless wisdom of Stoicism. Drawing from the teachings of ancient Stoic philosophers, our app offers a curated collection of insightful quotes that can guide you towards a more fulfilling and resilient life.
 
@@ -26,9 +27,9 @@ I am an individual that is constantly seeking wisdom to help navigate our modern
 
 **Getting Started**
 
-Visit StoicWisdom here:** https://stoicwisdom-f72934c2e06a.herokuapp.com/**
+Visit StoicWisdom: **https://stoicwisdom-f72934c2e06a.herokuapp.com/**
 
-Visit my Trello board here: **https://trello.com/b/LI1n56Po/stoic-wisdom-a-wiki**
+Visit StoicWisdom's Trello board: **https://trello.com/b/LI1n56Po/stoic-wisdom-a-wiki**
 
 **Explore Stoic Wisdom:** Dive into a vast library of quotes from renowned Stoic philosophers like Marcus Aurelius, Seneca, and Epictetus. Each quote is carefully selected to provide practical advice on how to navigate life's challenges and find inner peace.
 
@@ -40,7 +41,7 @@ Visit my Trello board here: **https://trello.com/b/LI1n56Po/stoic-wisdom-a-wiki*
 
 **Technologies used:** JavaScript, HTML, CSS, MongoDB, Mongoose.JS, Express.JS, Heroku
 
-**Next Steps & Ice Box Items: **
+**Next Steps & Ice Box Items:**
 
 Personal Quote Journal: Allow users to organize their favorite quotes and all of their posted "thoughts" to date. This will allow users to build their personal collection of Stoic wisdom, revisit them whenever needed, and track their personal growth journey.
 
@@ -56,4 +57,4 @@ The wisdom of the ages is just a click away.
 
 Any feature suggestions or just want to chat? 
 
-Message me at jiang.j.jason@gmail.com.
+Message me at **jiang.j.jason@gmail.com.**
