@@ -8,28 +8,35 @@
 
 StoicWisdom is a web application designed to inspire and empower users with the timeless wisdom of Stoicism. Drawing from the teachings of ancient Stoic philosophers, our app offers a curated collection of insightful quotes that can guide you towards a more fulfilling and resilient life.
 
-Stoicism is an ancient philosophical school that emerged in Greece and later gained prominence in Rome. It centers around the idea of cultivating inner tranquility and contentment by focusing on what one can control and accepting what one cannot. At the heart of Stoicism is the pursuit of virtue and wisdom, urging individuals to develop qualities like courage, justice, and self-discipline to achieve a state of eudaimonia, or flourishing. By practicing negative visualization, where potential hardships are mentally rehearsed, Stoics aim to foster gratitude for what they have and reduce attachment to external circumstances. Stoicism's enduring appeal lies in its practicality and adaptability, offering valuable insights into resilience, emotional regulation, and a meaningful way of life.
+Stoicism is an ancient philosophical school that emerged in Greece and later gained prominence in Rome. It centers around the idea of cultivating inner tranquility and contentment by focusing on what one can control and accepting what one cannot. 
+
+At the heart of Stoicism is the pursuit of virtue and wisdom, urging individuals to develop qualities like courage, justice, and self-discipline to achieve a state of eudaimonia, or flourishing. 
+
+By practicing negative visualization, where potential hardships are mentally rehearsed, Stoics aim to foster gratitude for what they have and reduce attachment to external circumstances. 
+
+Stoicism's enduring appeal lies in its practicality and adaptability, offering valuable insights into resilience, emotional regulation, and a meaningful way of life.
 
 **Personal Note**
 
-I created StoicWisdom as my first full-stack CRUD project during General Assembly's Software Engineering Immersive bootcamp the summer of 2023.
+I created StoicWisdom as my first full-stack CRUD project during General Assembly's Software Engineering Immersive bootcamp in July of 2023.
 
-Stoicism has been immensely beneficial in helping me navigate my life.
+Stoicism has been immensely beneficial in helping me navigate my journey of life.
 
-I am an individual that is constantly seeing wisdom to help navigate our modern world. I figured I would combine my interest in wisdom and technology to build "StoicWisdom: A Wiki". 
+I am an individual that is constantly seeking wisdom to help navigate our modern world. As a result, figured I would combine my interest for philosophy and technology to build "StoicWisdom: A Wiki". 
 
 **Getting Started**
 
-Visit StoicWisdom here: https://stoicwisdom-f72934c2e06a.herokuapp.com/
-Visit my Trello board here: https://trello.com/b/LI1n56Po/stoic-wisdom-a-wiki
+Visit StoicWisdom here:** https://stoicwisdom-f72934c2e06a.herokuapp.com/**
 
-**Explore Stoic Wisdom:** Dive into a vast library of Stoic quotes from renowned philosophers like Seneca, Epictetus, and Marcus Aurelius. Each quote is carefully selected to provide practical advice on how to navigate life's challenges and find inner peace.
+Visit my Trello board here: **https://trello.com/b/LI1n56Po/stoic-wisdom-a-wiki**
 
-**Share Your Thinking:** Share your thoughts on a quote or share how a quote has helped you navigate your own life.
+**Explore Stoic Wisdom:** Dive into a vast library of quotes from renowned Stoic philosophers like Marcus Aurelius, Seneca, and Epictetus. Each quote is carefully selected to provide practical advice on how to navigate life's challenges and find inner peace.
 
-**Add Wisdom To The Vault:** Add your favorite Stoic quotes to the "The Vault of Wisdom" for the entire community to see.
+**Share Your Thinking:** Share your thoughts on a particular quote or share how a quote has helped you navigate your journey of life.
 
-**Spread The Wisdom**: Share your favorite quotes on social media to spread Stoic insights with your friends and followers. Inspire others to embrace the Stoic philosophy and its transformative power.
+**Add Wisdom To The Vault:** Add your favorite Stoic quotes to the "The Vault of Wisdom" - we're a Wiki for a reason!
+
+**Spread The Wisdom**: Share your favorite quotes via social media to spread Stoic insights with your friends and followers. Inspire others to embrace the Stoic philosophy and its transformative power.
 
 **Technologies used:** JavaScript, HTML, CSS, MongoDB, Mongoose.JS, Express.JS, Heroku
 
@@ -46,3 +53,7 @@ Are you ready to embrace Stoic teachings and unlock your full potential? Begin y
 Visit StoicWisdom now and embark on a path of inner strength and serenity. 
 
 The wisdom of the ages is just a click away.
+
+Any feature suggestions or just want to chat? 
+
+Message me at jiang.j.jason@gmail.com.
