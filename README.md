@@ -7,7 +7,7 @@
 ![Alt text](<Add Thoughts.png>)
 ![Alt text](<Add Wisdom.png>)
 
-## **About**
+## **About StoicWisdom**
 
 StoicWisdom is a web application designed to inspire and empower users with the timeless wisdom of Stoicism. Drawing from the teachings of ancient Stoic philosophers, our app offers a curated collection of insightful quotes that can guide you towards a more fulfilling and resilient life.
 
