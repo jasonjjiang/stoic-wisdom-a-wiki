@@ -1,11 +1,13 @@
-# stoicwisdom-a-wiki
+# **StoicWisdom: A Wiki**
+
+## **Screenshots**
 
 ![Alt text](Home.png)
 ![Alt text](<Vault of Wisdom.png>)
 ![Alt text](<Add Thoughts.png>)
 ![Alt text](<Add Wisdom.png>)
 
-**About**
+## **About**
 
 StoicWisdom is a web application designed to inspire and empower users with the timeless wisdom of Stoicism. Drawing from the teachings of ancient Stoic philosophers, our app offers a curated collection of insightful quotes that can guide you towards a more fulfilling and resilient life.
 
@@ -17,7 +19,7 @@ By practicing negative visualization, where potential hardships are mentally reh
 
 Stoicism's enduring appeal lies in its practicality and adaptability, offering valuable insights into resilience, emotional regulation, and a meaningful way of life.
 
-**Personal Note**
+## **Personal Note**
 
 I created StoicWisdom as my first full-stack CRUD project during General Assembly's Software Engineering Immersive bootcamp in July of 2023.
 
@@ -25,7 +27,7 @@ Stoicism has been immensely beneficial in helping me navigate my journey of life
 
 I am an individual that is constantly seeking wisdom to help navigate our modern world. As a result, figured I would combine my interest for philosophy and technology to build "StoicWisdom: A Wiki". 
 
-**Getting Started**
+## **Getting Started**
 
 Visit StoicWisdom: **https://stoicwisdom-f72934c2e06a.herokuapp.com/**
 
@@ -41,11 +43,11 @@ Visit StoicWisdom's Trello board: **https://trello.com/b/LI1n56Po/stoic-wisdom-a
 
 **Technologies used:** JavaScript, HTML, CSS, MongoDB, Mongoose.JS, Express.JS, Heroku
 
-**Next Steps & Ice Box Items:**
+## **Ice Box Items:**
 
 Personal Quote Journal: Allow users to organize their favorite quotes and all of their posted "thoughts" to date. This will allow users to build their personal collection of Stoic wisdom, revisit them whenever needed, and track their personal growth journey.
 
-**Join the StoicWisdom Community**
+## **Join the StoicWisdom Community**
 
 At StoicWisdom, we believe in the enduring relevance of Stoicism and its ability to transform lives. Whether you're new to Stoicism or a seasoned practitioner, our web app is here to accompany you on your journey to self-discovery, resilience, and inner wisdom.
 
