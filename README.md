@@ -45,18 +45,12 @@ Visit StoicWisdom's Trello board: **https://trello.com/b/LI1n56Po/stoic-wisdom-a
 
 ## **Ice Box Items:**
 
-Personal Quote Journal: Allow users to organize their favorite quotes and all of their posted "thoughts" to date. This will allow users to build their personal collection of Stoic wisdom, revisit them whenever needed, and track their personal growth journey.
+Personal Quote Journal: Allow users to organize their favorite quotes and all of their posted "thoughts" to date. This will allow users to build their personal collection of Stoic wisdom and revisit them whenever needed.
 
 ## **Join the StoicWisdom Community**
 
-At StoicWisdom, we believe in the enduring relevance of Stoicism and its ability to transform lives. Whether you're new to Stoicism or a seasoned practitioner, our web app is here to accompany you on your journey to self-discovery, resilience, and inner wisdom.
+Whether you're new to Stoicism or a seasoned practitioner, our web app is here to accompany you on your journey to self-discovery, resilience, and inner wisdom.
 
 Are you ready to embrace Stoic teachings and unlock your full potential? Begin your exploration of StoicWisdom today and discover the profound impact these ancient quotes can have on your life.
 
-Visit StoicWisdom now and embark on a path of inner strength and serenity. 
-
-The wisdom of the ages is just a click away.
-
-Any feature suggestions or just want to chat? 
-
-Message me at **jiang.j.jason@gmail.com.**
+Visit StoicWisdom now and embark on a path of inner strength and serenity. The wisdom of the ages is just a click away.
